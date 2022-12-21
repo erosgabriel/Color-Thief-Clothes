@@ -1,0 +1,107 @@
+/*barra de navegação*/
+header nav{
+	background-color: white;
+}
+header a{
+	font-size: 12px;
+}
+.logo{
+	margin-left: -50px;
+}
+.logo2{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.slogan{
+	margin-top: 50px;
+	margin-left: -100px;
+}
+#nav-principal{
+	margin-top: 23px;
+	margin-right: -70px;
+}
+#nav-principal button{
+	margin-right: 10px;	
+}
+/*botão verão*/
+.verao_a a{
+	color: #CF7119;
+}
+.verao_a a:hover{
+	color: white;
+}
+.veraobutton:hover{
+	background-color: #CF7119;
+}
+/*botão primavera*/
+.primavera_a a{
+	color: #A60023;
+}
+.primavera_a a:hover{
+	color: white;
+}
+.primaverabutton:hover{
+	background-color: #A60023;
+}
+/*botão outono*/
+.outono_a a{
+	color: #6B316F;
+}
+.outono_a a:hover{
+	color: white;
+}
+.outonobutton:hover{
+	background-color: #6B316F;
+}
+/*botão inverno*/
+.inverno_a a{
+	color: #0B688F;
+}
+.inverno_a a:hover{
+	color: white;
+}
+.invernobutton:hover{
+	background-color: #0B688F;
+}
+.invernobutton{
+	margin-right: 10px;
+}
+.divisoria{
+	margin-left: 12px;
+	margin-right: 23px;
+}
+.carrinhobutton:hover{
+	background-color: #c8c8c8;
+}
+.userbutton:hover{
+	background-color: #c8c8c8;
+}
+/*primeira seção*/
+body #home{
+	background-color: #0B688F;
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.capa {
+	text-align: center;
+}
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+.btn-custom {
+	color: black;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
