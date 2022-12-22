@@ -3,7 +3,7 @@ header nav{
 	background-color: white;
 }
 header a{
-	font-size: 12px;
+	font-size: 15px;
 }
 .logo{
 	margin-left: -50px;
@@ -27,7 +27,7 @@ header a{
 .verao_a a{
 	color: #CF7119;
 }
-.verao_a a:hover{
+.veraobutton a:hover{
 	color: white;
 }
 .veraobutton:hover{
@@ -80,7 +80,7 @@ header a{
 body #home{
 	background-color: #0B688F;
 	background-attachment: fixed;
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: "Geral", Helvetica,Arial,sans-serif;
 }
 
 .capa {
@@ -102,6 +102,10 @@ body #home{
 html, body, #home{
 	height: 100%;
 	overflow-x: hidden;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Geral", Helvetica, Arial, sans-serif;
 }
 
+@font-face{
+	font-family: "Geral";
+	src: url(../fontes/Lusitana-Regular.ttf);
+}
