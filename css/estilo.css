@@ -82,12 +82,18 @@ body #home{
 	background-attachment: fixed;
 	font-family: "Geral", Helvetica,Arial,sans-serif;
 }
-
 .capa {
 	text-align: center;
 }
+.carousel-item h1{
+	margin-bottom: 20px;
+}
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
+}
+.itemnovidade img{
+	width: 160px;
+	margin: 30px;
 }
 .btn-custom {
 	color: black;
