@@ -87,22 +87,15 @@ body #home{
 }
 .carousel-item h1{
 	margin-bottom: 20px;
+	color: white;
 }
+
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
 .itemnovidade img{
 	width: 160px;
 	margin: 30px;
-}
-.btn-custom {
-	color: black;
-	border-radius: 500px;
-	-webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
-    padding: 10px 20px;
 }
 
 html, body, #home{
