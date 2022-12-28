@@ -77,19 +77,18 @@ header a{
 	background-color: #c8c8c8;
 }
 /*primeira seção*/
-body #home{
+#home{
 	background-color: #0B688F;
 	background-attachment: fixed;
-	font-family: "Geral", Helvetica,Arial,sans-serif;
 }
-.capa {
+.capa{
 	text-align: center;
+	margin-top: 70px;
 }
 .carousel-item h1{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	color: white;
 }
-
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
@@ -107,4 +106,12 @@ html, body, #home{
 @font-face{
 	font-family: "Geral";
 	src: url(../fontes/Lusitana-Regular.ttf);
+}
+#section2{
+	background-color: #CF7119;
+	background-attachment: fixed;
+}
+
+.caixa1, .caixa2{
+	height: 100%;
 }
