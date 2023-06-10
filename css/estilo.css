@@ -92,9 +92,12 @@ header a{
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
-.itemnovidade img{
+.itemnovidade{
 	width: 160px;
+	height: 160px;
 	margin: 30px;
+	padding-right: 10px;
+	background-color: #0B688F;
 }
 
 html, body, #home{
