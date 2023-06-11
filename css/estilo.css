@@ -111,11 +111,10 @@ html, body, #home{
 	src: url(../fontes/Lusitana-Regular.ttf);
 }
 #section2{
-	background-color: #CF7119;
+	background-image: url(../imagens/capaverao.png);
 	background-attachment: fixed;
 }
 /*paralax*/
 .caixa1, .caixa2{
 	height: 100%;
-	border: 1px solid red;
 }
