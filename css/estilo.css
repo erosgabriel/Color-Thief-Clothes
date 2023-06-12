@@ -30,6 +30,14 @@ nav{
 /*botão verão*/
 .verao_a a{
 	color: #CF7119;
+	text-align: center;
+	padding-top: 13px;
+}
+.veraobutton{
+	margin-right: 10px;
+	width: 110px;
+	height: 47px;
+	border-radius: 5px;
 }
 .veraobutton a:hover{
 	color: white;
@@ -40,9 +48,18 @@ nav{
 /*botão primavera*/
 .primavera_a a{
 	color: #A60023;
+	text-align: center;
+	padding-top: 13px;
 }
 .primavera_a a:hover{
 	color: white;
+}
+.primaverabutton{
+	margin-right: 10px;
+	width: 115px;
+	height: 47px;
+	border-radius: 5px;
+
 }
 .primaverabutton:hover{
 	background-color: #A60023;
@@ -50,9 +67,17 @@ nav{
 /*botão outono*/
 .outono_a a{
 	color: #6B316F;
+	text-align: center;
+	padding-top: 13px;
 }
 .outono_a a:hover{
 	color: white;
+}
+.outonobutton{
+	margin-right: 10px;
+	width: 175px;
+	height: 47px;
+	border-radius: 5px;
 }
 .outonobutton:hover{
 	background-color: #6B316F;
@@ -60,26 +85,31 @@ nav{
 /*botão inverno*/
 .inverno_a a{
 	color: #0B688F;
+	text-align: center;
+	padding-top: 13px;
 }
 .inverno_a a:hover{
 	color: white;
 }
+.invernobutton{
+	margin-right: 10px;
+	width: 75px;
+	height: 47px;
+	border-radius: 5px;
+
+}
 .invernobutton:hover{
 	background-color: #0B688F;
 }
-.invernobutton{
-	margin-right: 10px;
-}
+
 .divisoria{
 	margin-left: 12px;
 	margin-right: 23px;
 }
-.carrinhobutton:hover{
-	background-color: #c8c8c8;
+.btn-outline-dark:hover{
+	background-color: black;
 }
-.userbutton:hover{
-	background-color: #c8c8c8;
-}
+
 /*primeira seção*/
 #home{
 	background-image: url(../imagens/capainverno.png);

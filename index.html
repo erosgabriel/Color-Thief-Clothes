@@ -12,6 +12,7 @@
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <script src="js/inicial.js"></script>
+    <script src="https://kit.fontawesome.com/95360d2717.js" crossorigin="anonymous"></script>
     <title>Color Thief - all the seasons for you</title>
     <link rel="icon" href="imagens/favicon.png">
   </head>
@@ -30,39 +31,39 @@
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item inverno_a">
-                <button type="button" class="btn btn-outline-light invernobutton btn-sm" style="border: none; background-color: #0B688F;">
+                <div onclick="aviso()" class="invernobutton" style="border: none; background-color: #0B688F;">
                     <a href="index.html" class="nav-link" style="color: white;">Início</a>
-                </button>
+                </div>
               </li>
         
               <li class="nav-item verao_a">
-                <button onclick="aviso()" type="button" class="btn btn-outline-light veraobutton btn-sm" style="border: none;">
+                <div onclick="aviso()" class="veraobutton" style="border: none;">
                   <a href="" class="nav-link">Promoções</a>
-                </button>
+                </div>
               </li>
 
               <li class="nav-item outono_a">
-                <button onclick="aviso()" type="button" class="btn btn-outline-light outonobutton btn-sm" style="border: none;">
+                <div onclick="aviso()" class="outonobutton" style="border: none;">
                   <a href="" class="nav-link">Produtos Disponíveis</a>
-                </button>
+                </div>
               </li>
                
               <li class="nav-item primavera_a">
-                <button onclick="aviso()" type="button" class="btn btn-outline-light primaverabutton btn-sm" style="border: none;">
+                <div onclick="aviso()" class="primaverabutton" style="border: none;">
                   <a href="" class="nav-link">Quem somos</a>
-                </button>
+                </div>
               </li>
               <!--Lembrar de inserir Entrar ou Cadastre-se-->
             </ul>
             <div class="divisoria">
               <img src="imagens/barra.png" width="1">
             </div>
-            <div>
-              <button onclick="aviso()" type="button" class="btn btn-outline-light carrinhobutton btn-md" style="border-color: black;">
-                <a href=""><img src="imagens/carrinho.png" width="25"></a>
+            <div style="padding-left: 15px;">
+              <button onclick="aviso()" type="button" class="btn btn-outline-dark btn-md" style="border-color: black; width: 50px; height: 45px;">
+                <span class="fa-solid fa-cart-shopping"></span>
               </button>
-              <button onclick="aviso()" type="button" class="btn btn-outline-light userbutton btn-md" style="border-color: black;">
-                <a href=""><img src="imagens/user.png" width="25"></a>
+              <button onclick="aviso()" type="button" class="btn btn-outline-dark btn-md" style="border-color: black; width: 50px; height: 45px;">
+                <span class="fa-solid fa-user"></span>
               </button>
             </div>
           </div>
@@ -85,7 +86,7 @@
                     <div class="row align-items-start">
                       <div class="col-md">
                           <button onclick="aviso()" type="button" class="btn btn-outline-light itemnovidade btn-sm" style="border: none;">
-                          <!--<img src="imagens/bloco1.png">-->
+                            <span class="fa-solid fa-image"></span>
                           </button>
                       </div>
                     </div>
@@ -93,7 +94,7 @@
                     <div class="row align-items-center">
                       <div class="col-md">
                           <button onclick="aviso()" type="button" class="btn btn-outline-light itemnovidade btn-sm" style="border: none;">
-                          <!--<img src="imagens/bloco1.png">-->
+                            <span class="fa-solid fa-image"></span>
                           </button>
                       </div>
                     </div>
@@ -101,7 +102,7 @@
                     <div class="row align-items-end">
                       <div class="col-md">
                           <button onclick="aviso()" type="button" class="btn btn-outline-light itemnovidade btn-sm" style="border: none;">
-                          <!--<img src="imagens/bloco1.png">-->
+                            <span class="fa-solid fa-image"></span>
                           </button>
                       </div>
                     </div>  
@@ -114,7 +115,7 @@
                     <div class="row align-items-start">
                       <div class="col-md">
                           <button onclick="aviso()" type="button" class="btn btn-outline-light itemnovidade btn-sm" style="border: none;">
-                          <!--<img src="imagens/bloco1.png">-->
+                            <span class="fa-solid fa-image"></span>
                           </button>
                       </div>
                     </div>
@@ -122,7 +123,7 @@
                     <div class="row align-items-center">
                       <div class="col-md">
                           <button onclick="aviso()" type="button" class="btn btn-outline-light itemnovidade btn-sm" style="border: none;">
-                          <!--<img src="imagens/bloco1.png">-->
+                            <span class="fa-solid fa-image"></span>
                           </button>
                       </div>
                     </div>
@@ -130,7 +131,7 @@
                     <div class="row align-items-end">
                       <div class="col-md">
                           <button onclick="aviso()" type="button" class="btn btn-outline-light itemnovidade btn-sm" style="border: none;">
-                          <!--<img src="imagens/bloco1.png">-->
+                            <span class="fa-solid fa-image"></span>
                           </button>
                       </div>
                     </div>  
