@@ -27,20 +27,21 @@ nav{
 #nav-principal button{
 	margin-right: 10px;	
 }
+/*para todos*/
+.nav-item{
+	margin-right: 17px;
+}
+.nav-item a:hover{
+	color: white;
+}
 /*botão verão*/
 .verao_a a{
 	color: #CF7119;
 	text-align: center;
-	padding-top: 13px;
 }
 .veraobutton{
-	margin-right: 10px;
-	width: 110px;
-	height: 47px;
+	padding: 5px 7px;
 	border-radius: 5px;
-}
-.veraobutton a:hover{
-	color: white;
 }
 .veraobutton:hover{
 	background-color: #CF7119;
@@ -49,17 +50,10 @@ nav{
 .primavera_a a{
 	color: #A60023;
 	text-align: center;
-	padding-top: 13px;
-}
-.primavera_a a:hover{
-	color: white;
 }
 .primaverabutton{
-	margin-right: 10px;
-	width: 115px;
-	height: 47px;
+	padding: 5px 7px;
 	border-radius: 5px;
-
 }
 .primaverabutton:hover{
 	background-color: #A60023;
@@ -68,15 +62,9 @@ nav{
 .outono_a a{
 	color: #6B316F;
 	text-align: center;
-	padding-top: 13px;
-}
-.outono_a a:hover{
-	color: white;
 }
 .outonobutton{
-	margin-right: 10px;
-	width: 175px;
-	height: 47px;
+	padding: 5px 7px;
 	border-radius: 5px;
 }
 .outonobutton:hover{
@@ -86,22 +74,16 @@ nav{
 .inverno_a a{
 	color: #0B688F;
 	text-align: center;
-	padding-top: 13px;
-}
-.inverno_a a:hover{
-	color: white;
 }
 .invernobutton{
-	margin-right: 10px;
-	width: 75px;
-	height: 47px;
+	padding: 5px 7px;
 	border-radius: 5px;
 
 }
 .invernobutton:hover{
 	background-color: #0B688F;
 }
-
+/*outros*/
 .divisoria{
 	margin-left: 12px;
 	margin-right: 23px;
@@ -119,16 +101,7 @@ nav{
 	text-align: center;
 	margin-top: 70px;
 }
-.titulonovidade{
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: -50px;
-	color: white;
-}
-.carousel-item h1{
-	margin-bottom: 30px;
-	color: white;
-}
+
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
@@ -143,20 +116,30 @@ nav{
 	background-color: rgb(255,255,255, 0.6);
 }
 
+/*segunda seção*/
+#section2{
+	background-image: url(../imagens/capaverao.png);
+	background-attachment: fixed;
+}
+
+/*paralax*/
+.caixa1, .caixa2{
+	height: 100%;
+}
+
+/*geral*/
 html, body, #home{
 	height: 100%;
 	font-family: "Geral", Helvetica, Arial, sans-serif;
+}
+h1{
+	text-align: center;
+	margin-top: 95px;
+	margin-bottom: -45px;
+	color: white;
 }
 
 @font-face{
 	font-family: "Geral";
 	src: url(../fontes/Lusitana-Regular.ttf);
-}
-#section2{
-	background-image: url(../imagens/capaverao.png);
-	background-attachment: fixed;
-}
-/*paralax*/
-.caixa1, .caixa2{
-	height: 100%;
 }
