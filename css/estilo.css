@@ -121,6 +121,16 @@ nav{
 	background-image: url(../imagens/capaverao.png);
 	background-attachment: fixed;
 }
+.section2{
+	padding-top: 50px;
+}
+.itemcategoria{
+
+}
+.buttoncategoria{
+	width: 350px;
+	height: 120px;
+}
 
 /*paralax*/
 .caixa1, .caixa2{
