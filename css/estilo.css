@@ -34,6 +34,9 @@ nav{
 .nav-item a:hover{
 	color: white;
 }
+.stylebutton{
+	border-radius: 5px;
+}
 /*botão verão*/
 .verao_a a{
 	color: #CF7119;
@@ -41,7 +44,7 @@ nav{
 }
 .veraobutton{
 	padding: 5px 7px;
-	border-radius: 5px;
+
 }
 .veraobutton:hover{
 	background-color: #CF7119;
@@ -53,7 +56,6 @@ nav{
 }
 .primaverabutton{
 	padding: 5px 7px;
-	border-radius: 5px;
 }
 .primaverabutton:hover{
 	background-color: #A60023;
@@ -65,7 +67,6 @@ nav{
 }
 .outonobutton{
 	padding: 5px 7px;
-	border-radius: 5px;
 }
 .outonobutton:hover{
 	background-color: #6B316F;
@@ -77,7 +78,6 @@ nav{
 }
 .invernobutton{
 	padding: 5px 7px;
-	border-radius: 5px;
 
 }
 .invernobutton:hover{
@@ -110,6 +110,8 @@ nav{
 	height: 160px;
 	margin: 30px;
 	padding-right: 10px;
+	border: none;
+	border-radius: 5px;
 	background-color: rgb(11, 104, 143,0.5);
 }
 .itemnovidade:hover{
