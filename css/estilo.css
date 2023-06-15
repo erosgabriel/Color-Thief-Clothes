@@ -197,6 +197,9 @@ option, label{
 }
 
 /*geral*/
+html{
+	scroll-behavior: smooth;
+}
 html, body, #home{
 	height: 100%;
 	font-family: "Geral", Helvetica, Arial, sans-serif;
