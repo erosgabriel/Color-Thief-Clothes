@@ -149,7 +149,7 @@ nav{
 	height: 450px;
 	background-color: rgb(107, 49, 111, 0.5);
 	border-radius: 5px;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 .form-group{
 	padding-top: 30px;
@@ -177,8 +177,22 @@ option, label{
 	color: white;
 }
 
+/*Quarta seção*/
+#section4{
+	background-image: url(../imagens/capaprimavera.png);
+	background-attachment: fixed;
+}
+.section4{
+	margin-top: 80px;
+}
+.campoaboutus{
+	width: 300px;
+	height: 450px;
+	background-color: rgb(166,0,35, 0.5);
+	border-radius: 5px;
+}
 /*paralax*/
-.caixa1, .caixa2, .caixa3{
+.caixa1, .caixa2, .caixa3, .caixa4{
 	height: 100%;
 }
 
