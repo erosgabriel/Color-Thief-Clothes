@@ -177,6 +177,55 @@
     <section id="section3" class="d-flex caixa3"><!--inicio da section 3-->
       <div class="container section3 align-self-center"><!--container -->
         <div class="row"><!--row -->
+          <div class="col-md-8">
+            <h1>Filters</h1>
+            <p style="padding-top: 70px;">Select your preferences and find the perfect look</p>
+          </div>
+          <div class="col-md-4 align-self-end filters">
+            <div class="row form-group">
+              <h5>Season:</h5>
+              <select id="inputseason" class="form-control">
+                <option selected>...</option>
+                <option>Summer</option>
+                <option>Winter</option>
+                <option>Fall</option>
+                <option>Spring</option>
+              </select>
+            </div>
+            <div class="row form-group">
+              <h5>Size:</h5>
+              <div class="col optionssize">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                  <label class="form-check-label">
+                    Small
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label">
+                    Medium
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label">
+                    Large
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row form-group">
+              <h5>How much can cost?</h5>
+              <div class="col-md-10 input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">$</div>
+                </div>
+                <input type="text" class="form-control" placeholder="0,00">
+              </div>
+            </div>
+            <button onclick="aviso()" class="btn btn-outline-light btn-md buttonsearch">Search</button>
+          </div>
         </div><!--row -->
       </div><!--/container -->
     </section><!--fim da section 3-->
