@@ -34,6 +34,9 @@ nav{
 .nav-item a:hover{
 	color: white;
 }
+.link1.sticky, .link2.sticky, .link3.sticky, .link4.sticky{
+	color: white;
+}
 .stylebutton{
 	border-radius: 5px;
 }
@@ -49,6 +52,9 @@ nav{
 .veraobutton:hover{
 	background-color: #CF7119;
 }
+.veraobutton.sticky{
+	background-color: #CF7119;
+}
 /*botão primavera*/
 .primavera_a a{
 	color: #A60023;
@@ -60,6 +66,9 @@ nav{
 .primaverabutton:hover{
 	background-color: #A60023;
 }
+.primaverabutton.sticky{
+	background-color: #A60023;
+}
 /*botão outono*/
 .outono_a a{
 	color: #6B316F;
@@ -69,6 +78,9 @@ nav{
 	padding: 5px 7px;
 }
 .outonobutton:hover{
+	background-color: #6B316F;
+}
+.outonobutton.sticky{
 	background-color: #6B316F;
 }
 /*botão inverno*/
@@ -83,6 +95,10 @@ nav{
 .invernobutton:hover{
 	background-color: #0B688F;
 }
+.invernobutton.sticky{
+	background-color: #0B688F;
+}
+.
 /*outros*/
 .divisoria{
 	margin-left: 12px;
