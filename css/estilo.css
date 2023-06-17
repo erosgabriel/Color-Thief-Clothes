@@ -97,7 +97,9 @@ nav{
 .btn-outline-dark:hover{
 	background-color: black;
 }
-
+.outrosbotoes{
+	padding-left: 15px;
+}
 /*primeira seção*/
 #home{
 	background-image: url(../imagens/capainverno.png);
@@ -236,7 +238,9 @@ p{
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-
+	.logo2, .slogan{
+		display: none;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -296,9 +300,9 @@ p{
 		font-size: 1em;
 	}
 	#nav-principal{
-		margin-right: 30px;
+		margin-right: 20px;
 	}
-	.outrosbotoes, .divisoria{
+	.divisoria, .outrosbotoes{
 		display: none;
 	}
 }
