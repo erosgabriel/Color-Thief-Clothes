@@ -7,13 +7,13 @@ Clothing store based on seasons. Brazilian project.
   <img width=250px src="imagens/logo2.png">
 </div>
 <div>
-  O nome foi escolhido baseado em uma música que um amigo amava. A ideia é que as estações do ano em suas representações são como polos de cores vívidas e como se a loja roubasse isso para estampar seus produtos.
+  The name was chosen based on a song that a friend loved. The idea is: the seasons in their representations are like poles of vivid colors and as if the store stole this to stamp their products.
 </div>
 
 ### Logo
 <img width=250px src="imagens/logo.png">
 <div>
-  O logo foi criada a partir da ideia da paisagens de montanhas, que são inalteradas independentes da estação. Por isso cada uma representa uma estação na paisagem em que se sobrepõem.
+  The logo was created from the idea of ​​mountain landscapes, which are unchanged for the weather. Each one represents a season in the landscape, they overlap.
 </div>
 
 ### Backgrounds
@@ -26,6 +26,6 @@ Clothing store based on seasons. Brazilian project.
   <img width=250px src="imagens/capaprimavera.png">
 </div>
 <div>
-  Os backgrounds foram escolhidos a dedo para representarem momentos especiais nessa passagem de estações, mostrando a importância de estar bem vestido.
+  The backgrounds were handpicked to represent special moments in these changing seasons, showing the importance of being well dressed.
 </div>
 
